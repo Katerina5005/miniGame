@@ -12,6 +12,16 @@ body {
     margin: 0;
 }
 
+.name {
+    color: #05dfd7;
+    font-size: 20px;
+    margin-right: 5%;
+}
+
+.name:hover {
+    color: #ad6bc7;
+}
+
 .container {
     display: flex;
     justify-content: center;
@@ -21,12 +31,12 @@ body {
 }
 
 .square {
-    width: 16px;
-    height: 16px;
+    width: 18px;
+    height: 18px;
     background-color: #1d1d1d;
     margin: 2px;
     box-shadow: 0 0 2px #000;
-    transition: 2s ease;
+    transition: 1.5s ease;
 }
 .square:hover {
     transition-duration: 0s;
